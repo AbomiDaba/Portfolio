@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\style.css">
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Abomi Daba | Software Developer</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Abomi Daba</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img
+            alt="family_pic"
+            loading="lazy"
+            class="hero-img"
+            src="assets\images\family_pic.jpg"
+        />
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                I am a software developer based in the Seattle area. My first encounter
+                with coding was in a college setting back in 2015. I learned the basics
+                to programming with Python. That was my only encounter up
+                until spring of 2021. That's when I started my journey to turning
+                complex problems into simple applications! When I'm not working
+                on an application or learning new technologies, you can catch me
+                shooting hoops with some friends or the wife (we love basketball!),
+                playing at the park with the kiddos, or playing board games with the fam!
+            </p>
+        </div>
+    </section>
+    <!-- More about -->
+    <section class="more-about">
+        <h2>My Fun Facts</h2>
+        <div class= "fun_facts">
+            <img src="assets\images\more_about.jpg" alt="fun facts">
+            <ul>
+                <li>My favorite part of software development is the back-end</li>
+                <li>I really love python but lately javascript has been my language of choice</li>
+                <li>My wife and I are homeschool parents</li>
+                <li>If I had to choose a different career path I would be an envirnmental scientist</li>
+                <li>I enjoy nature walks, especially where there is water!</li>
+                <li>Born and raised in Seattle but have yet to get on the space needle (im kinda scared of heights)</li>
+                <li>My favorite current professional sports player is Ja Morrant</li>
+                <li>The best part of  my day is being a husband to Shalia and father to 
+                    Grace, Faith, La'Kayla, and Malachi (yeah I know, you're wondering how we sleep!)</li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                    src="assets\icons\icons8-html-5-144.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets\icons\icons8-css3-144.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets\icons\icons8-javascript-144.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img
+                    src="assets\icons\icons8-python-144.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets\icons\icons8-react-200.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets\icons\icons8-my-sql-144.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img
+                    src="assets\images\Screenshot (5).png"
+                    alt="book-worm"
+                    loading="lazy"
+                    class="project-pic"
+                />
+                <h3 class="project-title">Book Worm</h3>
+                <p class="project-details">
+                    Bookworm is a community platform for book lovers to learn
+                    about new books and review and rate ones they've read!
+                    I built this app using: HTML, CSS, Python, Django, and Bootstrap.
+                </p>
+                <div class="project_links">
+                    <a href="https://bookworm-production.up.railway.app/" target="_blank" class="project-link">Check it Out</a>
+                    <p>|</p>
+                    <a href="https://github.com/AbomiDaba/BookWorm">Github Code</a>
+                </div>
+            </div>
+            <div class="project-container project-card">
+                <img
+                    src="assets\images\Screenshot (6).png"
+                    alt="workout-Reg"
+                    loading="lazy"
+                    class="project-pic"
+                />
+                <h3 class="project-title">Workout Reg</h3>
+                <p class="project-details">
+                    Workout Reg is an application to organize your workout regime
+                    for those who have a hard time keeping track! I engineered this
+                    app with: MongoDB, Express.js, React.js, and Node.js.
+                </p>
+                <div class="project_links">
+                    <a href="" target="_blank" class="project-link">Check it Out</a>
+                    <p>|</p>
+                    <a href="https://github.com/AbomiDaba/Workout_Reg">Github Code</a>
+                </div>
+            </div>
+            <div class="project-container project-card">
+                <img
+                    src="assets\images\Screenshot (4).png"
+                        alt="music-share"
+                    loading="lazy"
+                    class="project-pic"
+                />
+                <h3 class="project-title">Music Share</h3>
+                <p class="project-details">
+                    Music Share is a  simple website for users to learn, like, and share music
+                    that they love with other users! I developed this website using the following
+                    technologies: HTML, CSS, Python, and Flask.
+                </p>
+                <div class="project_links">
+                    <a href="" target="_blank" class="project-link">Check it Out</a>
+                    <p>|</p>
+                    <a href="https://github.com/AbomiDaba/Music_Share">Github Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mayzwvky" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                        id="name"
+                        name="sender-name"
+                        placeholder="Enter Your Name"
+                        class="input-field"
+                        required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input
+                        type="email"
+                        id="email"
+                        name="sender-email"
+                        placeholder="Enter Your Email"
+                        class="input-field"
+                        required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Enter Your Message"
+                            name="message"
+                            class="input-field"
+                            required
+                        ></textarea>
+                    </div>
+                        <input
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                        />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/abomi-daba-3994a6222/" target="_blank"
+        ><img
+            src="assets\icons\icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/AbomiDaba" target="_blank"
+        ><img 
+            src="assets\icons\icons8-github.gif" 
+            alt="Github" 
+            class="socicon"
+        /></a>
+    </div>
+    <!-- Scroll to top -->
+
+    <!-- Footer section -->
+    <footer>
+        <div class="hidden_socials">
+            <a href="https://www.linkedin.com/in/abomi-daba-3994a6222/" target="_blank"
+            ><img
+                src="icons\icons8-linkedin-circled.gif"
+                alt="Linkedin"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="https://github.com/AbomiDaba" target="_blank"
+            ><img 
+                src="icons\icons8-github.gif" 
+                alt="Github" 
+                class="socicon"
+            /></a>
+        </div>
+        <p class="copy">&copy; Copyright 2022</p>
+    </footer>
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
